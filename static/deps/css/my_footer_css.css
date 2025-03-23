@@ -1,0 +1,43 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    padding: 10px 0;
+  }
+
+  .red-heading {
+    color: rgb(255, 255, 255);
+    font-size: 4.0rem;
+    margin-left: -223px;     
+    margin-right: 600px;
+    position: relative;
+      top: 30px;   
+    
+    font-family: 'Italic', serif; 
+    font-weight: bold;                    
+    font-style: italic;                   
+    text-shadow: 4px 4px 4px #4b4949;         
+    margin-bottom: 0px;
+}
+.text-heading {
+  color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-left: -223px;
+    margin-right: 600px;
+    font-family: 'Italic', serif;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 0px;
+    background-color: rgba(52, 58, 64, 0.8);   
+    bottom: 0;
+    padding: 8px 30px 30px;
+    border-radius: 30px;
+}
+.navbar-brand .brand-text {
+  font-style: italic,bold; 
+  font-family: 'Italic', serif;
+  font-size: 1.55rem;
+  
+}

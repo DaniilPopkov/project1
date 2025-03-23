@@ -1,0 +1,170 @@
+[
+    {
+        "model": "goods.products",
+        "pk": 1,
+        "fields": {
+            "name": "Салат с креветками, страчателлой и хурмой",
+            "slug": "salat-s-krevetkami-strachatelloj-i-hurmoj",
+            "description": "Очень вкусный и насыщенный салат",
+            "image": "goods_images/салат_1_convert_c7ZUhnv.io.jpg",
+            "price": "690.00",
+            "discount": "10.00",
+            "porcia": "200 грамм",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 2,
+        "fields": {
+            "name": "Салат с лососем, апельсинами в заправке манго-маракуя",
+            "slug": "salat-s-lososem-apelsinami-v-zapravke-mango-marakuya",
+            "description": "",
+            "image": "goods_images/салат_2_convert_H11or6Y.io.jpg",
+            "price": "690.00",
+            "discount": "10.00",
+            "porcia": "200 грамм",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 3,
+        "fields": {
+            "name": "Тако с говядиной /2 шт./",
+            "slug": "tako-s-govyadinoj-2-sht",
+            "description": "",
+            "image": "goods_images/закуски_1_convert_sJIHsJl.io.jpg",
+            "price": "630.00",
+            "discount": "5.00",
+            "porcia": "240 грамм",
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 4,
+        "fields": {
+            "name": "Тако с креветкой/2 шт./",
+            "slug": "tako-s-krevetkoj2-sht",
+            "description": "",
+            "image": "goods_images/закуски_2_convert_l1iXhPy.io.jpg",
+            "price": "630.00",
+            "discount": "5.00",
+            "porcia": "240 грамм",
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 5,
+        "fields": {
+            "name": "Том-ям с морепродуктами",
+            "slug": "tom-yam-s-moreproduktami",
+            "description": "",
+            "image": "goods_images/супы_1_convert_x4Cn2pH.io.jpg",
+            "price": "850.00",
+            "discount": "10.00",
+            "porcia": "350 грамм",
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 6,
+        "fields": {
+            "name": "Грибной крем-суп с тыквенным кремом",
+            "slug": "gribnoj-krem-sup-s-tykvennym-kremom",
+            "description": "",
+            "image": "goods_images/супы_2_kxa64zJ.jpg_convert.io.jpg",
+            "price": "850.00",
+            "discount": "10.00",
+            "porcia": "300 грамм",
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 7,
+        "fields": {
+            "name": "Томлёная телячья щека, полба, овощное пюре",
+            "slug": "tomlyonaya-telyachya-sheka-polba-ovoshnoe-pyure",
+            "description": "",
+            "image": "goods_images/горячие_блюда_1_9aFQKhP.jpg_convert.io.jpg",
+            "price": "930.00",
+            "discount": "15.00",
+            "porcia": "300 грамм",
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 8,
+        "fields": {
+            "name": "Стейк мачете с перечным соусом и картофелем беби в итальянских травах",
+            "slug": "stejk-machete-s-perechnym-sousom-i-kartofelem-bebi-v-italyanskih-travah",
+            "description": "",
+            "image": "goods_images/горячие_блюда_2_convert_EuwhD0r.io.jpg",
+            "price": "1500.00",
+            "discount": "20.00",
+            "porcia": "340 грамм",
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 9,
+        "fields": {
+            "name": "Чизкейк Нью-Йорк",
+            "slug": "chizkejk-nyu-jork",
+            "description": "",
+            "image": "goods_images/десерты_2_convert_bvslf0Q.io.jpg",
+            "price": "440.00",
+            "discount": "0.00",
+            "porcia": "200 грамм",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 10,
+        "fields": {
+            "name": "Напалеон",
+            "slug": "napaleon",
+            "description": "",
+            "image": "goods_images/Десерты_1_convert_hkJfFKL.io.jpg",
+            "price": "440.00",
+            "discount": "0.00",
+            "porcia": "240 грамм",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 11,
+        "fields": {
+            "name": "Сок виноградный",
+            "slug": "sok-vinogradnyj",
+            "description": "",
+            "image": "goods_images/jpg_1_ELauicn.jpg",
+            "price": "200.00",
+            "discount": "0.00",
+            "porcia": "200 мл",
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 12,
+        "fields": {
+            "name": "Сок яблочный",
+            "slug": "sok-yablochnyj",
+            "description": "Из спелых яблок прямиком с Абхазии",
+            "image": "goods_images/Напитки_1_convert_kdQObX8.io.jpg",
+            "price": "200.00",
+            "discount": "0.00",
+            "porcia": "200 мл",
+            "category": 7
+        }
+    }
+]
