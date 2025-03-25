@@ -28,7 +28,9 @@ urlpatterns = [
     path("__debug__/", include("debug_toolbar.urls")),
     path('user/', include('users.urls', namespace='user')),
     path('cart/', include('carts.urls', namespace='cart')),
-    path('api/',include('product.urls')),
+    path('api/',include('goods.api_urls')),
+    path('api-auth/', include('rest_framework.urls')),
+    path('api/', include('users.api_urls')),
 
 ]
 

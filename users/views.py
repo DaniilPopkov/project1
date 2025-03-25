@@ -4,6 +4,16 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render,redirect
 from django.urls import reverse
 from users.forms import UserLoginForm,UserRegistrationForm,ProfileForm
+from rest_framework import viewsets
+from rest_framework import permissions
+from .serializers import UserSerializer
+from django.contrib.auth import get_user_model
+from rest_framework.authentication import SessionAuthentication, BasicAuthentication
+
+User = get_user_model()
+
+
+
 
 def login(request):
     if request.method =='POST':
@@ -70,7 +80,23 @@ def users_cart(request):
     return render(request, 'users/users_cart.html')
 
 @login_required
+
 def logout(request):
+    print(f"User before logout: {request.user}")
     messages.success(request, f"{request.user.username}, Вы вышли из аккаунта")
     auth.logout(request)
-    return redirect(reverse('main:index'))
+    print(f"User after logout: {request.user}")
+    redirect_url = reverse('main:index')
+    print(f"Redirecting to: {redirect_url}")
+    return redirect(redirect_url)
+
+
+
+
+
+class UserViewSet(viewsets.ModelViewSet):
+   
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+    permission_classes = [permissions.IsAuthenticated] 
+    authentication_classes = [SessionAuthentication, BasicAuthentication] 
