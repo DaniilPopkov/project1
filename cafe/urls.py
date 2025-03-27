@@ -31,6 +31,7 @@ urlpatterns = [
     path('api/',include('goods.api_urls')),
     path('api-auth/', include('rest_framework.urls')),
     path('api/', include('users.api_urls')),
+    path('orders/', include('orders.urls', namespace='orders')),
 
 ]
 
